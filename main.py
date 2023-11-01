@@ -46,7 +46,7 @@ class Game(DirectObject):
     self.plane2.setPos(0.9, 0, -3.2)
     self.Flipper2.node().setRestitution(0)
   def handleRailCollision(self, entry):
-    print entry
+    print(entry)
   def doTask(self):
     self.plane.setPos(-0.9, 0, -2.6)
     self.Flipper1.node().setRestitution(0.3)
